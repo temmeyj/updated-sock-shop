@@ -12,7 +12,11 @@ resource "kubernetes_ingress_v1" "micro-ingress" {
 
   spec {
     rule {
+<<<<<<< HEAD:KUBERNETES1/ingress-rule/micro.tf
       host = "sock-shop.temmeyj.live"
+=======
+      host = "sock-shop.berthaweb.com"
+>>>>>>> aaf144aa6f379f01e10a6a61a5adbaa3f880a386:kubernetes/ingress-rule/micro.tf
       http {
         path {
           backend {
